@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-
+import json
+from datetime import datetime
 # URL du menu
 url = "https://www.crous-poitiers.fr/restaurant/la-rochelle-ru-republique/"
 
@@ -46,3 +47,6 @@ else:
     raise Exception
     
 print(repas)
+filename = "menu.json"
+with open(filename, "w", encoding="utf-8") as f:
+    json.dump(repas, f, ensure_ascii=False, indent=4)
