@@ -1,19 +1,20 @@
 {
-    "Date": "Menu du vendredi 5 décembre 2025",
+    "Date": "Menu du lundi 8 décembre 2025",
     "Entrées": [
-        "Salade verte au chèvre",
-        "Salade de pdt gitane",
-        "Cervelas"
+        "Carottes râpées",
+        "Salade de pdt piémontaise",
+        "Taboulé"
     ],
     "Plats": [
-        "Cordon bleu",
-        "Pavé de poisson bordelais",
-        "Riz au curry",
-        "Courgettes sautées"
+        "Côte porc sauce choron",
+        "Merguez",
+        "Brocolis",
+        "Semoule aux fruits secs"
     ],
     "Desserts": [
-        "Yaourts aux  choix",
-        "Fromage blanc - coulis de fruits rouges",
-        "Cocktail de fruits"
+        "Yaourts au choix",
+        "fruits de saison",
+        "Fromage blanc bio",
+        "Crème dessert au café"
     ]
 }
