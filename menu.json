@@ -1,3 +1,19 @@
 {
-    "Date": "Menu du vendredi 2 janvier 2026"
+    "Date": "Menu du lundi 5 janvier 2026",
+    "Entrées": [
+        "Betteraves",
+        "Feuilleté au fromage",
+        "Macédoine mayonnaise"
+    ],
+    "Plats": [
+        "Poisson à la provençale",
+        "Crêpe au jambon - emmental",
+        "Ratatouille",
+        "Riz créole bio"
+    ],
+    "Desserts": [
+        "Yaourts au choix",
+        "Fruits de saison",
+        "Crème dessert créole"
+    ]
 }
