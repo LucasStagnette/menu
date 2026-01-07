@@ -1,19 +1,20 @@
 {
-    "Date": "Menu du lundi 5 janvier 2026",
+    "Date": "Menu du mardi 6 janvier 2026",
     "Entrées": [
-        "Betteraves",
-        "Feuilleté au fromage",
-        "Macédoine mayonnaise"
+        "Salade de pâtes à l ' italienne",
+        "Carottes râpées bio",
+        "Mini pizza"
     ],
     "Plats": [
-        "Poisson à la provençale",
-        "Crêpe au jambon - emmental",
-        "Ratatouille",
-        "Riz créole bio"
+        "Tarte tomate- chèvre",
+        "Boulettes d' agneau sauce tomate",
+        "Frites",
+        "Courgettes sautées"
     ],
     "Desserts": [
         "Yaourts au choix",
         "Fruits de saison",
-        "Crème dessert créole"
+        "Fromage blanc bio",
+        "Cocktail de fruits"
     ]
 }
