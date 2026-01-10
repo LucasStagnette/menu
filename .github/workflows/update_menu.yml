@@ -1,42 +1,42 @@
-name: Update Crous Menu
+# name: Update Crous Menu
 
-on:
-  schedule:
-    - cron: '0 5 * * *'   # 6h en France en hiver (~7h en été)
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 5 * * *'   # 6h en France en hiver (~7h en été)
+#   workflow_dispatch:
 
-permissions:
-  contents: write
+# permissions:
+#   contents: write
 
-jobs:
-  update-menu:
-    runs-on: ubuntu-latest
+# jobs:
+#   update-menu:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repo
+#         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
+#       - name: Set up Python
+#         uses: actions/setup-python@v4
+#         with:
+#           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4
+#       - name: Install dependencies
+#         run: |
+#           python -m pip install --upgrade pip
+#           pip install requests beautifulsoup4
 
-      - name: Run menu script
-        run: python menu.py
+#       - name: Run menu script
+#         run: python menu.py
 
-      - name: Configure git
-        run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
-          git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
+#       - name: Configure git
+#         run: |
+#           git config --global user.name "GitHub Actions"
+#           git config --global user.email "actions@github.com"
+#           git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git
 
-      - name: Push menu.json update
-        run: |
-          git add menu.json
-          git commit -m "Update menu $(date +'%Y-%m-%d')" || echo "No changes to commit"
-          git push origin main
+#       - name: Push menu.json update
+#         run: |
+#           git add menu.json
+#           git commit -m "Update menu $(date +'%Y-%m-%d')" || echo "No changes to commit"
+#           git push origin main
