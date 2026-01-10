@@ -1,20 +1,19 @@
 {
-    "Date": "Menu du jeudi 8 janvier 2026",
+    "Date": "Menu du vendredi 9 janvier 2026",
     "Entrées": [
-        "Salade de riz arc en ciel",
-        "Salade verte paysanne",
-        "Carottes râpées - mais"
+        "Galantine de porc aux olives",
+        "Concombres à la crème",
+        "Salade verte crétoise"
     ],
     "Plats": [
-        "Cordon bleu",
-        "Côte de porc sauce aux  poivres verts",
-        "Purée",
-        "Carottes - céleri braisés"
+        "Pavé de poisson à la bordelaise",
+        "Cervelas orloff",
+        "Riz milanaise",
+        "Épinards à la crème"
     ],
     "Desserts": [
         "Yaourts au choix",
         "Fruits de saison",
-        "Galettes des rois",
-        "Frangipanes"
+        "Donuts nature"
     ]
 }
